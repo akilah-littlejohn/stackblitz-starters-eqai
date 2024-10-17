@@ -1,0 +1,45 @@
+@import '@angular/material/prebuilt-themes/indigo-pink.css';
+
+body {
+  font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #161616;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.mat-form-field {
+  margin-bottom: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+mat-card {
+  margin-bottom: 20px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1) !important;
+}
+
+mat-card-title {
+  font-size: 1.5em;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+
+.mat-raised-button.mat-primary {
+  background-color: #0f62fe;
+}
+
+.mat-form-field-appearance-fill .mat-form-field-flex {
+  background-color: #f4f4f4;
+}
+
+.content-container {
+  padding: 20px;
+}
